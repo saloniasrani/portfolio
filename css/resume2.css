@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,200&display=swap");
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  color: #979f9b;
+  background-color: black;
+}
+.navbar a.active {
+  color: #64ffda;
+}
+.navbar a:hover:not(.active) {
+  color: #ffffff;
+}
+.navbar {
+  display: flex;
+  padding: 10px;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+.name,
+.nav-links,
+a {
+  text-transform: uppercase;
+  color: #979f9b;
+}
+.topnav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topnav .nav-links,
+a {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.name {
+  font-size: 25px;
+}
+.surname {
+  color: #64ffda;
+}
+.dropdownLink {
+  display: none;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 56px;
+  font-weight: 600;
+  color: #ccd6f6;
+  line-height: 120px;
+  width: 100%;
+  border-bottom: 0.5px solid #ccd6f667;
+}
+.degree {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e7eaf6;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+.degree .college {
+  font-size: 24px;
+  color: rgb(202, 210, 233);
+}
+.degree .college::before {
+  content: "— ";
+}
+.degree span {
+  font-size: 16px;
+  margin-top: -10px;
+}
+.date {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+  color: #64ffda;
+  margin-right: 6px;
+}
+p {
+  font-size: 24px;
+  color: rgb(202, 210, 233);
+  margin: 0;
+}
+.experience-container {
+  padding: 24px 0;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  row-gap: 42px;
+}
+.volunteer-container {
+  display: flex;
+  gap: 28px;
+  margin: 40px 0;
+}
+.volunteer {
+  border: 1px solid #ccd6f667;
+  padding: 24px;
+  border-radius: 8px;
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+.volunteer:hover {
+  transform: translate(4px, -4px);
+  box-shadow: -4px 4px 0 #64ffda;
+}

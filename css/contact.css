@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,200&display=swap");
+
 html,
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-variant: normal;
   color: #979f9b;
@@ -19,9 +21,9 @@ body {
   transform: translateY(-5px);
 }
 .navbar a.active {
-  color: #61cdf4;
+  color: #64ffda;
 }
-.navbar a:hover {
+.navbar a:hover:not(.active) {
   color: #ffffff;
 }
 .name,
@@ -46,7 +48,7 @@ a {
   font-size: 25px;
 }
 .surname {
-  color: #61cdf4;
+  color: #64ffda;
 }
 .dropdownLink {
   display: none;
