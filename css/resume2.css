@@ -5,7 +5,7 @@ body {
   font-style: normal;
   font-variant: normal;
   color: #979f9b;
-  background-color: black;
+  background-color: #000000;
 }
 .navbar a.active {
   color: #64ffda;
@@ -112,4 +112,16 @@ p {
 .volunteer:hover {
   transform: translate(4px, -4px);
   box-shadow: -4px 4px 0 #64ffda;
+}
+footer {
+  text-align: center;
+}
+.copyrights {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #979f9b;
+  font-size: 1rem;
 }
