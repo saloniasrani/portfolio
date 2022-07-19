@@ -17,6 +17,9 @@ function toggleDropdown() {
 //   },
 //   true
 // );
+function project1() {
+  window.open("https://saloniasrani.github.io/memory-flashcards/", "_blank");
+}
 class TextScramble {
   constructor(el) {
     this.el = el;
