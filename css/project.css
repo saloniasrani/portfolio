@@ -59,7 +59,46 @@ a {
 footer {
   text-align: center;
 }
-.project {
+.project-container {
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+  border-radius: 4px;
+  background-color: #112240;
+  color: #a8b2d1;
+  font-size: 18px;
+}
+.project-links a svg:hover {
+  color: #64ffda;
+}
+.project-links a svg {
+  width: 20px;
+  height: 20px;
+}
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  margin: 25px 0px 10px;
+  padding: 0px;
+  list-style: none;
+}
+li {
+  padding-inline-start: 10px;
+}
+/* .project-links {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+  margin-left: -10px;
+  color: var(--lightest-slate);
+} */
+/* .project {
   margin-top: 50px;
   border: 1px solid #ccd6f667;
   padding: 24px;
@@ -68,11 +107,11 @@ footer {
   display: flex;
   gap: 50px;
   cursor: pointer;
-}
-.project:hover {
+} */
+/* .project:hover {
   transform: translate(4px, -4px);
   box-shadow: -4px 4px 0 #64ffda;
-}
+} */
 p {
   font-size: 20px;
 }
